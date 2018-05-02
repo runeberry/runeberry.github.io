@@ -1,4 +1,6 @@
-#![CHIP_EAST](https://raw.githubusercontent.com/dolphinspired/CHIPS/master/img/chip_east.png) Chip's Tribute ![CHIPS_WEST](https://raw.githubusercontent.com/dolphinspired/CHIPS/master/img/chip_west.png)
+Original repo/version history can be found [here](https://github.com/dolphinspired/CHIPS).
+
+## ![CHIP_EAST](https://raw.githubusercontent.com/dolphinspired/CHIPS/master/img/chip_east.png) Chip's Tribute ![CHIPS_WEST](https://raw.githubusercontent.com/dolphinspired/CHIPS/master/img/chip_west.png)
 
 A recreation of the 90's classic "Chip's Challenge" written entirely in JavaScript for the HTML5 Canvas.
 
