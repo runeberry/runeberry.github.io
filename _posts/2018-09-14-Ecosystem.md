@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Ecosystem"
+---
+
 # Ecosystem #
 
 One of the things I definitely want to incorporate into the game engine is an Entity Component System. I like the idea of a highly modular, queryable database of "stuff" that I can manipulate to make game magic happen.
