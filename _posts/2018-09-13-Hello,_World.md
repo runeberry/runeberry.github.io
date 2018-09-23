@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: blog-post
 title: "Hello, World"
 ---
-
 I've gotta start writing something, so here it is. In some medium that I understand.
 
 The only thing I've consistently wanted to do for years is make games. I need to make progress. Even if that progress is just writing shit down here. Maybe nobody will look at it, but it's out there. It's some sort of accountability, right?

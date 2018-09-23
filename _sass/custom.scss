@@ -1,0 +1,67 @@
+a {
+  &:hover {
+    color: $brand-color;
+  }
+
+  &:visited {
+    color: darken($brand-color, 10%);
+  }
+}
+
+.post-content {
+  hr {
+    border: none;
+    height: 1px;
+    background-color: $grey-color-light;
+    margin-bottom: 15px; // to match divs
+  }
+}
+
+// Make titles stand out a little vs. text
+.post-title {
+  color: lighten($text-color, 10%);
+}
+
+// Dark-theme-ify code blocks
+pre, code {
+  background-color: #222;
+}
+
+.highlight {
+  background: #000;
+
+  .highlighter-rouge & {
+    background: #222;
+  }
+}
+
+// Blog navigation
+// Courtesy of: https://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html
+.blog-nav {
+  display: block;
+  width: auto;
+  overflow: hidden;
+
+  table, tr, td {
+    border: none;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+  .blog-nav-prev {
+    width: 35%;
+    text-align: left;
+  }
+
+  .blog-nav-posts {
+    width: 30%;
+    text-align: center;
+  }
+
+  .blog-nav-next {
+      width: 35%;
+      text-align: right;
+  }
+}

@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: blog-post
 title: "Player motivation"
 ---
-
-# Player motivation #
-
 I'm at the endgame of my second playthrough of Stardew Valley, this time on PC, after having played through it for the first time on Switch last year. With one week left in Year 2, I've stockpiled hundreds of Ancient Fruit seeds and I'm ready to launch my Ancient Wine empire and make enough cash to buy Pelican Town and make it my vassal state in Year 3.
 
 All this has got me thinking, what motivates me to keep playing a game like this after the primary objective is done? In Stardew's case, I would consider the primary objective to restore the Community Center by completing all the bundles, though this is by no means the defined "end of the game" in any sense. What keeps me going past that? I think there are a few factors at play:

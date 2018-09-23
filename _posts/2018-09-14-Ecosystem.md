@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: blog-post
 title: "Ecosystem"
 ---
-
-# Ecosystem #
-
 One of the things I definitely want to incorporate into the game engine is an Entity Component System. I like the idea of a highly modular, queryable database of "stuff" that I can manipulate to make game magic happen.
 
 What's interesting about this approach is that it's so drastically different from all the game-making tutorials I've read over the years. So many examples I've seen use the idea of game-specific objects to illustrate use-cases for inheritance, and probably some other OOP paradigms. But after having spent a couple of years in the enterprise API world, I know this kind of approach (deeply-inherited business objects) is going to lead to problems and tech debt I'll want to clean up immediately.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: "Information overload"
 ---
 Something that will absolutely turn me off from playing a game is being confronted with a ton of information on-screen early on. I feel like there might have been a time when I was younger that this didn't bother me too much, or maybe I just didn't play games where I would experience this. But I definitely feel it now.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: "Paper Mario"
 ---
 Based on everything I've read on the internet in the past 70 years, I've come to find that there are two conclusions about the Paper Mario series that have reached near-universal consensus among fans of the series.
