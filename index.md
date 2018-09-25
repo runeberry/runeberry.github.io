@@ -5,6 +5,8 @@ layout: default
 
 ## [Projects](projects/)
 
+## [Banking & Bugbears](bnb/)
+
 ## [Blog](blog/)
 
 ## [About](about)
