@@ -76,7 +76,7 @@ Eventually, I got [another lead](http://code-ninja.org/blog/2014/07/24/entity-fr
 
 > ToDictionary() is an extension method on the Enumerable class in System.Linq. It doesn’t know anything about Entity Framework – all it can do is enumerate an IEnumerable.
 
-Suddenly, I knew what I had to try - remove ToDictionary(). I refactored my response model this:
+Suddenly, I knew what I had to try - remove ToDictionary(). I refactored my response model to this:
 
 ```csharp
 public class PokemonJsonResponseItem
