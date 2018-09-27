@@ -17,7 +17,7 @@ Rising Sun is backed by tithes and contributions to the Church of Lathander. The
 
 ## New World Exchange (NWE)
 
-The New World Exchange invests heavily in overseas ventures and trade partnerships for exotic goods. Though they focus primarily on high-risk, high-return loans, they have been able to turn tremendous profits due to the keen insight and negotation skills of the Dwarven lineage of the
+The New World Exchange invests heavily in overseas ventures and trade partnerships for exotic goods. Though they focus primarily on high-risk, high-return loans, they have been able to turn tremendous profits due to the keen insight and negotation skills of the Dwarven lineage of their founders.
 
 ## The Three Kingdoms
 
