@@ -3,7 +3,7 @@ layout: default
 ---
 # Places
 
-[Back to index](/bnb)
+[« Back to index](/bnb)
 
 ## Oscuerra
 

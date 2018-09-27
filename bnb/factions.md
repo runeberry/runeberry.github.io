@@ -3,7 +3,7 @@ layout: default
 ---
 # Factions
 
-[Back to index](/bnb)
+[« Back to index](/bnb)
 
 ## First International Trading House (FITH)
 
