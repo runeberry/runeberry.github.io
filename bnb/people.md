@@ -13,7 +13,7 @@ A ragtag group of buddies who can at least tolerate each other. They've been unw
 * __Klestra__: Human death cleric. Very spooky.
 * __Weasel__: Gnome warlock. Is actively learning all the things.
 * __Flicker__: Fire Genasi warlock. Smoking-hot and gender-fluid.
-* __Naelen__: Human paladin. Simultaneously good _and_ just.
+* __Naelen__: Elven paladin. Definitely _not human_.
 * __Harold "The Clam" Winslow__: Human bard-entertainer. Is actually all he's cracked up to be.
 * __Vinn__: Human rogue. Will always have a seat at the table.
 
