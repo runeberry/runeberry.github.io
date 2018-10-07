@@ -25,20 +25,20 @@ layout: page
   display: none;
 }
 </style>
-<script src="js/keydrown.min.js"></script>
-<script src="js/chips.js"></script>
-<script src="js/chips.settings.js"></script>
-<script src="js/chips.global.js"></script>
-<script src="js/chips.vars.js"></script>
-<script src="js/chips.commands.js"></script>
-<script src="js/chips.util.js"></script>
-<script src="rulesets/MS_1_0_0.js"></script>
-<script src="js/chips.data.js"></script>
-<script src="js/chips.assets.js"></script>
-<script src="js/chips.obj.js"></script>
-<script src="js/chips.draw.js"></script>
-<script src="js/chips.events.js"></script>
-<script src="js/chips.map.js"></script>
+<script src="/projects/CHIPS/js/keydrown.min.js"></script>
+<script src="/projects/CHIPS/js/chips.js"></script>
+<script src="/projects/CHIPS/js/chips.settings.js"></script>
+<script src="/projects/CHIPS/js/chips.global.js"></script>
+<script src="/projects/CHIPS/js/chips.vars.js"></script>
+<script src="/projects/CHIPS/js/chips.commands.js"></script>
+<script src="/projects/CHIPS/js/chips.util.js"></script>
+<script src="/projects/CHIPS/rulesets/MS_1_0_0.js"></script>
+<script src="/projects/CHIPS/js/chips.data.js"></script>
+<script src="/projects/CHIPS/js/chips.assets.js"></script>
+<script src="/projects/CHIPS/js/chips.obj.js"></script>
+<script src="/projects/CHIPS/js/chips.draw.js"></script>
+<script src="/projects/CHIPS/js/chips.events.js"></script>
+<script src="/projects/CHIPS/js/chips.map.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("buttonShower").addEventListener("click", function(e) {
