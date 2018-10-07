@@ -1,0 +1,118 @@
+---
+layout: page
+---
+<!--
+  This page has been mangled to run on github pages. But it was pretty bad to begin with.
+  There is hard-coded game logic that depends on specific element ids. I am ashamed.
+-->
+<style>
+#chipsContent {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 12px;
+	padding-bottom: 12px;
+    text-align: center;
+}
+#gameCanvas {
+	border: outset 5px rgb(238, 238, 238);
+}
+#gameMessage {
+  color: red;
+  font-weight: bold;
+}
+#controls {
+  /* The game actually breaks if this div isn't available. But it's gross and I want it gone */
+  display: none;
+}
+</style>
+<script src="js/keydrown.min.js"></script>
+<script src="js/chips.js"></script>
+<script src="js/chips.settings.js"></script>
+<script src="js/chips.global.js"></script>
+<script src="js/chips.vars.js"></script>
+<script src="js/chips.commands.js"></script>
+<script src="js/chips.util.js"></script>
+<script src="rulesets/MS_1_0_0.js"></script>
+<script src="js/chips.data.js"></script>
+<script src="js/chips.assets.js"></script>
+<script src="js/chips.obj.js"></script>
+<script src="js/chips.draw.js"></script>
+<script src="js/chips.events.js"></script>
+<script src="js/chips.map.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("buttonShower").addEventListener("click", function(e) {
+            document.getElementById("buttonShower").style.display = "none";
+            document.getElementById("moveControls").style.display = "block";
+        });
+        document.getElementById("version").textContent = chips.version;
+    });
+</script>
+<div id="chipsContent">
+  <div id="canvasDiv">
+    <canvas id="gameCanvas">Canvas not supported. Please update your browser!</canvas>
+    <div class="linkbar">
+        "Chip's Tribute" -
+        <a href="https://github.com/dolphinspired/dolphinspired.github.io/tree/master/Projects/CHIPS">GitHub</a> -
+        <a href="http://chipschallenge.wikia.com/wiki/Chip%27s_Challenge_Wiki">Chip's Challenge Wiki</a>
+    </div>
+    <div class="linkbar" style="font-style: italic; padding-top: 6px;">
+        If something's not behaving correctly, try a hard-refresh in your browser! (CTRL+F5)
+    </div>
+  </div>
+  <div id="gameMessage"></div>
+  <div>
+    <span id="version"></span>
+    <table id="controls">
+        <tr>
+            <td>
+                <h4>Level Navigation:</h4>
+                <button onclick="chips.map.load.prevLevel();">Previous</button>
+                &nbsp;
+                <button onclick="chips.map.load.level(chips.g.cam.number);">This (restart)</button>
+                &nbsp;
+                <button onclick="chips.map.load.nextLevel();">Next</button>
+                <br/><br/>
+                <button onclick="chips.g.cam.elapsedTime.togglePause();">Pause</button>
+            </td>
+            <td id="movement">
+                <span id="buttonShower">Use your arrow keys to move, or click here to show on-screen buttons (warning: not very good).</span>
+                <div id="moveControls">
+                    &nbsp;<button id="buttonUp" class="totesTouchscreenCompatible">&#9650;</button>
+                    <br/>
+                    <button id="buttonLeft" class="totesTouchscreenCompatible">&#9664;</button>
+                    <button id="buttonDown" class="totesTouchscreenCompatible">&#9660;</button>
+                    <button id="buttonRight" class="totesTouchscreenCompatible">&#9654;</button>
+                </div>
+            </td>
+        </tr>
+    </table>
+  </div>
+  <div id="gameInstructions">
+    <h4>Keyboard Controls:</h4>
+    <table>
+        <tbody>
+            <tr>
+                <td>Arrow keys</td>
+                <td>Move</td>
+            </tr>
+            <tr>
+                <td>SHIFT+N</td>
+                <td>Next level</td>
+            </tr>
+            <tr>
+                <td>SHIFT+P</td>
+                <td>Previous level</td>
+            </tr>
+            <tr>
+                <td>SHIFT+R</td>
+                <td>Restart level</td>
+            </tr>
+            <tr>
+                <td>SHIFT+C</td>
+                <td>Pause</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>
