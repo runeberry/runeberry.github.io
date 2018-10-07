@@ -13,11 +13,11 @@ chips.vars = {
     defaultGameMessage : "Welcome to Chip's Tribute!",
     defaultRuleset : "MS_1_0_0",
 
-    gameWindowURL : "img/window.png",
-    atlasURL : "img/default_tileset.png",
-    hudsetURL : "img/default_hudset.png",
-    levelsetURL : "levels/",
-    rulesetURL : "rulesets/",
+    gameWindowURL : "/assets/projects/CHIPS/img/window.png",
+    atlasURL : "/assets/projects/CHIPS/img/default_tileset.png",
+    hudsetURL : "/assets/projects/CHIPS/img/default_hudset.png",
+    levelsetURL : "/assets/projects/CHIPS/levels/",
+    rulesetURL : "/assets/projects/CHIPS/rulesets/",
 
     atlasReferenceContainerID : "CHIPS_AtlasReferenceContainer",
 
