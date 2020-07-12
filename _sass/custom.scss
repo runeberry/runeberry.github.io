@@ -8,6 +8,12 @@ a {
   }
 }
 
+.site-title {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .post-content {
   hr {
     border: none;

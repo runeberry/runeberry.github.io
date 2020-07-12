@@ -14,24 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Runeberry Software
-author: Dolphinspired
 email: info@runeberry.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Now LIVE in Cyberspace!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://runeberry.com" # the base hostname & protocol for your site, e.g. http://example.com
+logo: assets/logo.png
+description: ""
 # twitter_username: jekyllrb
-github_username: dolphinspired
+github_username: runeberry
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
-header_pages:
-  - projects/index.md
-  - about.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
