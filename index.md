@@ -4,7 +4,7 @@ layout: default
 
 # Projects
 
-## [PlayerMadeQuests](/PlayerMadeQuests)
+## [PlayerMadeQuests](https://pmq.runeberry.com)
 
 PMQ is an addon for World of Warcraft: Classic that allows you write your own custom quests and share them with friends! Set quest objectives, custom descriptions, requirements, and more - and watch as the whole experience is tracked in real time, just like an actual WoW quest. Our goal is to make writing a custom quest no more difficult than writing a WoW macro, and to make sharing quests in-game as simple and intuitive as possible.
 
