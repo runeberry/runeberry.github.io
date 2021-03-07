@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://runeberry.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: assets/logo.png
 description: ""
-# twitter_username: jekyllrb
+twitter_username: Runeberries
 github_username: runeberry
 
 # Build settings
